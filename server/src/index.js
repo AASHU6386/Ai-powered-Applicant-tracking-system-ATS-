@@ -22,6 +22,7 @@ const seedCandidates = [
   { name: 'Noah Williams', role: 'Product Designer', initials: 'NW', tone: 'blue', stage: 'Review', score: 84, time: '2d ago', location: 'Chicago, IL' },
 ]
 
+app.get('/', (_request, response) => response.json({ name: 'ATS API', status: 'ok', docs: '/api/health' }))
 app.get('/api/health', (_request, response) => response.json({ status: 'ok', service: 'ats-api' }))
 app.get('/api/candidates', async (_request, response, next) => {
   try {
