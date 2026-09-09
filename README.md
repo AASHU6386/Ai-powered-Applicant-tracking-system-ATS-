@@ -42,4 +42,4 @@ The interface uses React, Vite, React Query, and Lucide icons to support a fast,
 ## Validation
 
 Run `npm run lint` to validate the frontend before committing changes.
-## Project Completed with it's all functionalities 
+Project Completed with it's all functionalities 
