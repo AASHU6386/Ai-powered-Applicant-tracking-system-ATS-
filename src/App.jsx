@@ -28,7 +28,7 @@ const candidates = [
   { name: 'Noah Williams', role: 'Product Designer', initials: 'NW', tone: 'blue', stage: 'Review', score: 84, time: '2d ago', location: 'Chicago, IL', tags: ['UX', 'Research'] },
 ]
 
-const stages = ['All candidates', 'Sourced', 'Review', 'Interview', 'Offer']
+const stages = ['All candidates', 'Sourced', 'Review', 'Interview', ]
 
 const seedCandidates = candidates
 
